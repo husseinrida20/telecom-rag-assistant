@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Data (download separately, see README)
+data/
+*.csv
+*.npy
+
+# Local vector DB / model caches
+chroma_db/
+*.bin
+*.safetensors
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
